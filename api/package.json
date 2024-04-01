@@ -1,0 +1,19 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "This is a open source project powered by The Factory for yoruba learns ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.12.2",
+    "typescript": "^5.4.3"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.11.0",
+    "prisma": "^5.11.0"
+  }
+}
