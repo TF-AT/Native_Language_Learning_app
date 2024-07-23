@@ -1,0 +1,102 @@
+.login {
+  padding: 2%;
+  background-color: #131f24;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.top {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.loginForm {
+  width: 100%;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.loginForm h1 {
+  color: white;
+  margin-bottom: 20px;
+}
+
+.form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.formInput {
+  padding: 12px 20px;
+  width: 100%;
+  color: white;
+  background-color: transparent;
+  border: 2px solid #37464f;
+  border-radius: 10px;
+}
+
+.formInput::placeholder {
+  color: #f1f7fb;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+.formInput:focus {
+  outline: 2px solid #4a97c2;
+}
+
+.formOr {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0;
+  width: 100%;
+}
+
+.formOr hr {
+  width: 45%;
+  border: none;
+  border-top: 2px solid #37464f;
+}
+
+.formOr p {
+  margin: 0 10px;
+  color: #49c0f8;
+}
+
+.btnloginconatiner {
+  width: 100%;
+  margin-top: 15px;
+}
+
+.btncontainer {
+  display: flex;
+  gap: 10px;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.terms {
+  color: #49c0f8;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.terms a {
+  color: #49c0f8;
+  text-decoration: none;
+}
